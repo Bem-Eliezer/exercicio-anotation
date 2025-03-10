@@ -1,7 +1,12 @@
 
+@Tabela(value = "Tabela de Numeros")
 public class NomeDaTabela {
 
-    @Tabela(value = "Tabela de nome")
-    private String nome;
-    
+
+        private String nome;
+
+        public String getNome() {
+            return nome;
+        }
 }
+  
